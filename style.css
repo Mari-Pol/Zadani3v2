@@ -1,0 +1,81 @@
+li {
+    cursor: pointer;
+    display: flex;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+    }
+ul{
+    justify-content: center;
+    text-align: center;
+    padding-left: 41%;
+    width: 200px;
+    border:#EC4899
+    
+    
+}
+    .delete {
+    float: right;
+    cursor: pointer;
+    }
+    
+    .checked {
+        text-decoration: line-through;
+        font-style: italic;
+        color: black;
+        cursor: pointer;
+    }
+
+    input {
+        flex: 1 1 0%;
+        background-color: var(--darker);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        color: var(--light);
+        font-size: 1.25rem;
+
+    }
+
+    body {
+        min-height: 100vh;
+        color: #FFF;
+        background-color: var(--dark);
+        text-align: center;
+        
+    }
+    
+    h1{ 
+        min-height: 10vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 300;
+        color: var(--grey);
+        margin-bottom: 1rem;
+    }
+    
+    :root {
+        --dark: #374151;
+        --darker: #1F2937;
+        --darkest: #111827;
+        --grey: #6B7280;
+        --pink: #EC4899;
+        --purple: #8B5CF6;
+        --light: #EEE;
+    }
+    
+    button {
+        color: #bbb lac;;
+        font-size: 1.25rem;
+        font-weight: 700;
+        background-color: antiquewhite;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    button:hover {
+        color:crimson;
+    }
